@@ -1,0 +1,19 @@
+.done {
+    outline: none;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    transition: .4s;
+    margin-right: 8px;
+}
+
+.done:hover {
+    background-color: lightgreen;
+}

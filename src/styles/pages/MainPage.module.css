@@ -1,0 +1,17 @@
+.mainPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 66px;
+    width: 100%;
+}
+
+.description {
+    font-style: italic;
+    width: 100%;
+}

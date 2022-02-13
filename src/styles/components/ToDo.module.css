@@ -1,0 +1,32 @@
+.todo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 40%;
+    padding: 30px 30px;
+    border: 2px solid red;
+    border-radius: 16px;
+    margin-bottom: 10px;
+    transition: .7s;
+}
+
+.todo:hover {
+
+}
+
+.todoTitle {
+    font-size: 20px;
+    font-weight: 900;
+
+}
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.done {
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: line-through;
+}

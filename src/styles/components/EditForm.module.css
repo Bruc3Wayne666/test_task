@@ -1,0 +1,29 @@
+.editForm {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input {
+    width: 90%;
+    color: #222222;
+    font-size: 22px;
+    font-weight: 700;
+    height: 30px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #222222;
+}
+
+.button {
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    height: 30px;
+    font-size: 20px;
+    transition: .4s;
+}
+
+.button:hover {
+    background-color: darkgray;
+}

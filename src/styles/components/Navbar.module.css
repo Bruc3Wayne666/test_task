@@ -1,0 +1,38 @@
+.navBar {
+    display: flex;
+    justify-content: center;
+    background-color: #222222;
+    /*display: flex;*/
+    padding-top: 20px;
+    width: 100%;
+    border-bottom: 2px solid red;
+    padding-bottom: 20px;
+    margin-bottom: 30px;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.linksWrapper {
+    width: 40%;
+    /*border: 1px solid black;*/
+    display: flex;
+    justify-content: space-around;
+}
+
+.linkItem {
+
+}
+
+.navLink {
+    color: white;
+    font-size: 22px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.navLinkActive {
+    color: gold;
+    font-size: 30px;
+    text-decoration: none;
+    transition: .4s;
+}
